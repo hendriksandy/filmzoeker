@@ -1,0 +1,35 @@
+body {
+  background-color: lightslategrey;
+  color: whitesmoke;
+  font-family: sans-serif, Verdana, Tahoma;
+  font-size: 20px;
+  text-align: center;
+}
+
+header {
+  font-family: inherit;
+  font-size: 32px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+img {
+  transform: scale(0.8);
+}
+
+#textfield {
+  margin: 20px auto;
+  width: 750px;
+  height: 30px;
+  padding-left: 20px;
+}
+
+#nothingfound {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  font-family: inherit;
+}

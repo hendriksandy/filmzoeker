@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Filmzoeker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script defer src="movies.js" type="text/javascript"></script>
+  <script defer src="script.js" type="text/javascript"></script>
+
+</head>
+<header>
+  <h2>Welkom bij de Filmzoeker</h2>
+</header>
+
+<body>
+  <nav>
+    <input type="radio" id="allefilms" name="filmfilters" value="allefilms" />
+    <label for="allmovies">Alle films</label>
+    <input type="radio" id="newestmovies" name="filmfilters" value="newestmovies" />
+    <label for="newestMovies">Nieuwste films</label>
+
+    <input type="radio" id="avengersfilms" name="filmfilters" value="avenger" />
+    <label for="avenger">Avenger Films</label>
+
+    <input type="radio" id="xMenfilms" name="filmfilters" value="x-Men" />
+    <label for="xmen">X-Men Films</label>
+
+    <input type="radio" id="princessfilms" name="filmfilters" value="princess" />
+    <label for="princess">Princess Films</label>
+
+    <input type="radio" id="batmanfilms" name="filmfilters" value="batman" />
+    <label for="batman">Batman Films</label>
+
+    <input type="text" placeholder="Zoek een film:" id="textfield" onkeydown="getValue()" />
+  </nav>
+  <main>
+    <div id="nothingfound"></div>
+    <ul id="moviedatabase"></ul>
+  </main>
+
+</body>
+
+</html>
